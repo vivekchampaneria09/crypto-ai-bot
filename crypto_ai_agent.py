@@ -15,9 +15,8 @@ LIMIT = 200
 
 import os
 
-TELEGRAM_TOKEN = os.getenv("8553832621:AAGyZwKXo59aaSAWqmHVBoUqm2qjz8dhQnY")
-CHAT_ID = os.getenv("6289424434")
-
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
 
 bot = Bot(token=TELEGRAM_TOKEN)
 
@@ -208,3 +207,4 @@ def run():
 
 if __name__ == "__main__":
     run()
+
